@@ -192,7 +192,7 @@ std::vector<TObject *> Plot()
 
 int main(int argc, char **argv)
 {
-    std::vector<TObject *> obj = pippim();
+    std::vector<TObject *> obj = Plot();
 
     TApplication *theApp = new TApplication("root.exe", &argc, argv);
     MyMainFrame *myframe = new MyMainFrame(gClient->GetRoot(), 1200, 800);
